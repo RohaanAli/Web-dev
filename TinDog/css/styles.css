@@ -1,9 +1,4 @@
-#title
-{
-    background-color: #ff4c68;
-    color: #fff;
-    font-size: 3rem;
-}
+
 body
 {
     font-family: "Montserrat";
@@ -34,6 +29,13 @@ h3
 p
 {
     color: #8f8f8f;
+}
+/* title */
+#title
+{
+    background-color: #ff4c68;
+    color: #fff;
+    font-size: 3rem;
 }
 
 .container-fluid
@@ -76,6 +78,20 @@ p
     transform: rotate(25deg);
     position: absolute;
     right:30%;
+}
+
+@media (max-width:990px)
+{
+    .mobile-img
+    {
+       transform: rotate(0);
+       position: static; 
+    }
+    #title
+    {
+        text-align: center;
+    }
+
 }
 
 /* Features */
@@ -151,3 +167,30 @@ p
     padding: 3% 2%;
 }
 
+/* call to action */
+
+#cta
+{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: #ff4c68;
+    padding: 7% 15%;    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* footer */
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+    color: #8f8f8f;
+    background-color: #fff;
+}
+.logo
+{
+    color: #000;
+    padding: 2rem;
+}
