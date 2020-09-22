@@ -1,7 +1,7 @@
 Web Developent Projects - These projects showcase the use of various web development technologies such as Javascript, ExpressJS, JQuery, HTML, CSS, BOOTSTRAP etc. Each project exercises the following technology.
 
 TINDOG: 
-A tindir application for Dogs which showcases HTML, CSS BOOTSTRAP to generate a working application.
+A tinder application but for Dogs.
 
 DRUMKIT:
 A working drumkit to visualize and give you a feel of a drumkit on your system. Different Keystrokes define different sounds and give you a feel of an actual drum kit.
